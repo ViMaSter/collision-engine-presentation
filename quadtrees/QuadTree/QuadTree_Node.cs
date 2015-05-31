@@ -54,10 +54,10 @@ namespace QuadTree
             Hovered = false;
 
             if (considerMouse) {
-                Hovered = Form1.MouseSelection.GetBounds().IntersectsWith(this.Bounds);
+                Hovered = FormQuadtree.MouseSelection.GetBounds().IntersectsWith(this.Bounds);
             }
 
-            if (Form1.DrawNodes)
+            if (FormQuadtree.DrawNodes)
             {
                 if (Hovered)
                 {

@@ -36,7 +36,7 @@ namespace QuadTree
 
             if (considerMouse)
             {
-                Hovered = Form1.MouseSelection.IsVisible(Position);
+                Hovered = FormQuadtree.MouseSelection.IsVisible(Position);
             }
 
             if (Hovered)   // Selected
